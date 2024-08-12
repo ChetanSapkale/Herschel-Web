@@ -1,0 +1,78 @@
+.banner-img {
+    position: relative;
+}
+
+.banner-img img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-img h1 {
+    position: absolute;
+    top: 10.5%;
+    left: 2.3%;
+    font-size: 65px;
+    color: white;
+    font-weight: 700;
+}
+
+.accessories img {
+    height: 130px;
+}
+
+.accessories p {
+    font-size: 13px;
+}
+
+@media (max-width: 576px) {
+    .banner-img h1 {
+        font-size: 35px;
+        top: 8%;
+        left: 2%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .banner-img h1 {
+        font-size: 45px;
+        top: 9%;
+        left: 2%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .banner-img h1 {
+        font-size: 55px;
+        top: 10%;
+        left: 2.2%;
+    }
+}
+
+@media (min-width: 993px) {
+    .banner-img h1 {
+        font-size: 65px;
+        top: 10.5%;
+        left: 2.3%;
+    }
+}
+
+@media (max-width: 576px) {
+    .ms-4 {
+        margin-left: 15px !important;
+    }
+
+    .mt-5 {
+        margin-top: 20px !important;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .ms-4 {
+        margin-left: 20px !important;
+    }
+
+    .mt-5 {
+        margin-top: 25px !important;
+    }
+}

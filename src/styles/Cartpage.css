@@ -1,0 +1,16 @@
+.cartproduct {
+    margin: 3%;
+  }
+  
+  .cartproduct p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  h4 {
+    margin: 3%;
+    text-align: center;
+  }
+  .remove-button{
+    width: 160px;
+  }

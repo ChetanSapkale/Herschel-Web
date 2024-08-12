@@ -1,0 +1,12 @@
+.banner-image img{
+    height: 349px;
+    width: 100%;
+}
+.banner-image h1{
+    position: absolute;
+    top: 21%;
+    left: 36%;
+    font-size: 65px;
+    color: black;
+    font-weight: 700;
+}

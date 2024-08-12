@@ -1,0 +1,16 @@
+.image img {
+    height: 349px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sale-title {
+    position: absolute;
+    top: 21%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 65px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+.details {
+    padding: 0; /* Removed the left margin as Bootstrap handles spacing */
+}
+.details p {
+    font-size: 13.5px; /* You can adjust this if needed */
+}

@@ -1,0 +1,258 @@
+.banner img {
+  height: 78.2vh;
+  width: 100%;
+}
+
+.text h2 {
+  position: absolute;
+  bottom: 82%;
+  margin-left: 3%;
+  color: white;
+}
+
+.text p {
+  position: absolute;
+  bottom: 77%;
+  margin-left: 3%;
+  color: white;
+}
+
+.text button {
+  height: 40px;
+  width: 120px;
+  position: absolute;
+  bottom: 19%;
+  margin-left: 3%;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+h5 {
+  padding-top: 0.5%;
+  margin-left: 1.5%;
+}
+
+.slider-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 50px;
+  padding-left: 20px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  text-align: center;
+}
+
+.slider-container::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-item {
+  flex: 0 0 auto;
+  width: 195px;
+}
+
+.featured-item img {
+  width: 100%;
+  height: 105vh;
+}
+
+.bag-banner {
+  margin-top: 9%;
+}
+
+.bag-banner h1 {
+  text-align: center;
+  position: absolute;
+  padding-top: 14.7%;
+  margin-left: 32%;
+  font-size: 60px;
+  color: white;
+}
+
+.bag-banner button {
+  height: 40px;
+  width: 120px;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 46%;
+  position: absolute;
+  margin-top: 28%;
+}
+
+@media (max-width: 480px) {
+  .banner img {
+    height: 95vh;
+  }
+
+  .text h2 {
+    font-size: 1.25rem;
+    margin-left: 25%;
+    top: 83%;
+  }
+
+  .text p {
+    display: none;
+  }
+
+  .text button {
+    font-size: 0.75rem;
+    margin-left: 38%;
+    margin-bottom: -25%;
+  }
+
+  .slider-item {
+    width: 120px;
+  }
+
+  .featured-item img {
+    height: 80vh;
+  }
+
+  .featured-text h3 {
+    font-size: 1rem;
+  }
+
+  .featured-text p {
+    font-size: 0.75rem;
+  }
+
+  .bag-banner {
+    margin-top: 30%;
+  }
+
+  .bag-banner img {
+    height: 80vh;
+  }
+
+  .bag-banner h1 {
+    font-size: 1.25rem;
+    margin-top: 50%;
+
+  }
+  .bag-banner button {
+    font-size: 0.75rem;
+    margin-top: 83%;
+    right: 37%;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .text h2 {
+    font-size: 1.5rem;
+    margin-left: 30%;
+    top: 65%;
+  }
+
+  .text p {
+    display: none;
+  }
+
+  .text button {
+    font-size: 0.875rem;
+    margin-left: 43%;
+  }
+
+  .slider-item {
+    width: 140px;
+  }
+
+  .featured-text h3 {
+    font-size: 1.25rem;
+  }
+
+  .featured-text p {
+    font-size: 0.875rem;
+  }
+  .bag-banner{
+    margin-top: 20%;
+  }
+  .bag-banner h1 {
+    font-size: 2rem;
+    margin-left: 31%;
+
+  }
+  .bag-banner button {
+    font-size: 1rem;
+    right: 42%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner img{
+    height: 50vh;
+  }
+  .text h2 {
+    font-size: 1.75rem;
+  }
+
+  .text p {
+    font-size: 1.125rem;
+  }
+
+  .text button {
+    font-size: 1rem;
+    margin-bottom: 25%;
+  }
+
+  .slider-item {
+    width: 150px;
+  }
+  .featured-item img{
+    height: 50vh;
+  }
+  .featured-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .featured-text p {
+    font-size: 1rem;
+  }
+  .bag-banner{
+    margin-top: 20%;
+  }
+  .bag-banner h1 {
+    font-size: 1.75rem;
+  }
+
+  .bag-banner button {
+    font-size: 0.8rem;
+    right: 43.5%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .text h2 {
+    font-size: 2rem;
+  }
+
+  .text p {
+    font-size: 1.25rem;
+  }
+
+  .text button {
+    font-size: 1.125rem;
+  }
+
+  .slider-item {
+    width: 180px;
+  }
+
+  .featured-text h3 {
+    font-size: 1.75rem;
+  }
+
+  .featured-text p {
+    font-size: 1.125rem;
+  }
+  .bag-banner{
+    margin-top: 20%;
+  }
+
+  .bag-banner h1 {
+    font-size: 2rem;
+    margin-left: 38%;
+  }
+
+  .bag-banner button {
+    font-size: 1.125rem;
+    margin-left: 47%;
+  }
+}
